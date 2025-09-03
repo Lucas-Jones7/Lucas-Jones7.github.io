@@ -1,0 +1,24 @@
+a {
+width: 100vw;
+height: 100vh;
+font-family: fantasy;
+}
+
+marquee {
+    font-family: fantasy;
+    color: blueviolet;
+}
+
+p {
+    text-align: center;
+    color: coral;
+    font-size: large;
+}
+
+img{
+    opacity: .5;
+}
+
+body {
+    background-image: url(mike.jfif);
+}
