@@ -3,94 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/finishme.css">
 </head>
-<body>    
-    <h1>
-        Lucas Jones
-    </h1>
+<body>
+    <h1>Lucas Jones</h1>
 
-    <h2>
-        Net ID: g76d615
-    </h2>
+    <p class="special">Style this page!</p>
+    <p>See D2L for what elements to style, and how they should look.</p>
+    <img src="images/hands.jpg" alt="tattooed arm holding up a camera">
+    <hr>
 
-    <a href="https://lucas-jones7.github.io/8-22.html">My GitHub Pages Site</a>
-
-    <h2>
-        Class Schedule
-    </h2>
-
-    <table>
-        <tr>
-            <th>  </th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-        <tr>
-            <td>10:00</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td>EELE 261</td>
-        </tr>
-        <tr>
-            <td>11:00</td>
-        </tr>
-        <tr>
-            <td>12:00</td>
-            <td>STAT 216Q</td>
-            <td> </td>
-            <td>STAT 216Q</td>
-            <td> </td>
-            <td>STAT 216Q</td>
-        </tr>
-        <tr>
-            <td>12:20</td>
-            <td> </td>
-            <td>ESOF 322</td>
-            <td> </td>
-            <td>ESOF 322</td>
-        </tr>
-        <tr>
-            <td>1:10</td>
-            <td>CSCI 331</td>
-            <td> </td>
-            <td>CSCI 331</td>
-            <td> </td>
-            <td>CSCI 331</td>
-        </tr>
-        <tr>
-            <td>2:10</td>
-            <td>EELE 261</td>
-            <td> </td>
-            <td>EELE 261</td>
-            <td> </td>
-            <td>EELE 261</td>
-        </tr>
-        <tr>
-            <td>3:00</td>
-            <td> </td>
-            <td>CSCI 338</td>
-            <td> </td>
-            <td>CSCI 338</td>
-            <td> </td>
-        </tr>
-    </table>
-
-    <h2>
-        Previous Courses
-    </h2>
-
+    <p>Also, here is a <span class="shout">form</span> example. Take a look at:</p>
     <ul>
-        <li> CSCI 127 </li>
-        <li> CSCI 132 </li>
-        <li> CSCI 215CS </li>
-        <li> CSCI 232 </li>
-        <li> CSCI 112 </li>
+        <li>the &lt;form&gt; tag</li>
+        <li>form <em>action</em> attribute</li>
+        <li>form <em>method</em> attribute</li>
+        <ul class="special">
+            <li>GET</li>
+            <li>POST</li>
+        </ul>
+        <li>the &lt;input&gt; tag and it's <em>type</em> attribute</li>
+        <li>submitting form data to a server</li>
     </ul>
 
+    <form action="https://www.cs.montana.edu/users/h48c334/form-viewer.php" method="GET">
+        <label for="bar">Enter your favorite color.</label>
+        <input type="text" name="foo" id="bar">
+        <br />
+        <label for="colorid">Pick your favorite color.</label>
+        <input type="color" name="colorval" id="colorid">
+        <br />
+        
+        <input type="submit" name="bim" id="baz" value="Send Data to Server">
+    </form>
+    
 </body>
 </html>
